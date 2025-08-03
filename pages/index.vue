@@ -4,6 +4,40 @@
       VCE Median Study Scores (2022)
     </h1>
 
+    <!-- Comparison Panel -->
+    <div v-if="comparedSchools.length" style="margin-bottom: 2rem;">
+      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Comparison View</h2>
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="background-color: #e8f0fe;">
+            <th style="padding: 0.5rem;">School</th>
+            <th style="padding: 0.5rem;">Locality</th>
+            <th style="padding: 0.5rem; text-align: center;">Median Score</th>
+            <th style="padding: 0.5rem; text-align: center;"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            v-for="school in comparedSchools"
+            :key="school.School + school.Locality"
+            :style="{
+              borderBottom: '1px solid #ccc',
+              backgroundColor: isTopScore(school) ? '#e6ffe6' : 'white'
+            }"
+          >
+            <td style="padding: 0.5rem;">{{ school.School }}</td>
+            <td style="padding: 0.5rem;">{{ school.Locality }}</td>
+            <td style="text-align: center;">{{ school['Median VCE study score'] }}</td>
+            <td style="text-align: center;">
+              <button @click="removeCompare(school)" style="padding: 0.3rem 0.6rem;">
+                Remove
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
     <!-- Filters -->
     <div style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
       <div style="flex: 1 1 250px;">
@@ -51,7 +85,7 @@
       </div>
     </div>
 
-    <!-- Table -->
+    <!-- Data Table -->
     <table style="width: 100%; border-collapse: collapse;">
       <thead>
         <tr style="background-color: #f2f2f2;">
@@ -86,37 +120,6 @@
     <p v-if="sortedSchools.length === 0" style="margin-top: 1rem; color: #a00;">
       No schools match your search.
     </p>
-
-    <!-- Comparison Panel -->
-    <div v-if="comparedSchools.length" style="margin-top: 2rem;">
-      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Comparison View</h2>
-      <table style="width: 100%; border-collapse: collapse;">
-        <thead>
-          <tr style="background-color: #e8f0fe;">
-            <th style="padding: 0.5rem;">School</th>
-            <th style="padding: 0.5rem;">Locality</th>
-            <th style="padding: 0.5rem; text-align: center;">Median Score</th>
-            <th style="padding: 0.5rem; text-align: center;"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr
-            v-for="school in comparedSchools"
-            :key="school.School + school.Locality"
-            style="border-bottom: 1px solid #ccc;"
-          >
-            <td style="padding: 0.5rem;">{{ school.School }}</td>
-            <td style="padding: 0.5rem;">{{ school.Locality }}</td>
-            <td style="text-align: center;">{{ school['Median VCE study score'] }}</td>
-            <td style="text-align: center;">
-              <button @click="removeCompare(school)" style="padding: 0.3rem 0.6rem;">
-                Remove
-              </button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
   </section>
 </template>
 
@@ -167,7 +170,6 @@ const scoreOptions = computed(() => {
   return Array.from(set).sort((a, b) => b - a)
 })
 
-// Comparison logic
 function toggleCompare(school) {
   const exists = comparedSchools.value.find(
     (s) => s.School === school.School && s.Locality === school.Locality
@@ -191,5 +193,14 @@ function isCompared(school) {
   return comparedSchools.value.some(
     (s) => s.School === school.School && s.Locality === school.Locality
   )
+}
+
+const topScore = computed(() => {
+  if (!comparedSchools.value.length) return null
+  return Math.max(...comparedSchools.value.map(s => s['Median VCE study score']))
+})
+
+function isTopScore(school) {
+  return school['Median VCE study score'] === topScore.value
 }
 </script>
