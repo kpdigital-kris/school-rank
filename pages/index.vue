@@ -1,125 +1,132 @@
 <template>
-  <section style="padding: 2rem;">
-    <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 1rem;">
-      VCE Median Study Scores (2022)
-    </h1>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">VCE Median Study Scores (2022)</h1>
 
-    <!-- Comparison Panel -->
-    <div v-if="comparedSchools.length" style="margin-bottom: 2rem;">
-      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Comparison View</h2>
-      <table style="width: 100%; border-collapse: collapse;">
+      <!-- Comparison Panel -->
+      <div v-if="comparedSchools.length" class="box mb-5">
+        <h2 class="subtitle">Comparison View</h2>
+        <table class="table is-striped is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <th>School</th>
+              <th>Locality</th>
+              <th class="has-text-centered">Median Score</th>
+              <th class="has-text-centered"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="school in comparedSchools"
+              :key="school.School + school.Locality"
+              :class="{ 'has-background-success-light': isTopScore(school) }"
+            >
+              <td>{{ school.School }}</td>
+              <td>{{ school.Locality }}</td>
+              <td class="has-text-centered">{{ school['Median VCE study score'] }}</td>
+              <td class="has-text-centered">
+                <button class="button is-small is-danger is-light" @click="removeCompare(school)">
+                  Remove
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Filters -->
+      <div class="columns is-multiline mb-5">
+        <div class="column is-one-quarter">
+          <div class="field">
+            <label class="label">Search by School Name</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                v-model="filterName"
+                placeholder="e.g. Melbourne High"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="field">
+            <label class="label">Filter by Locality</label>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select v-model="filterLocality">
+                  <option value="">All</option>
+                  <option v-for="loc in uniqueLocalities" :key="loc" :value="loc">{{ loc }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="field">
+            <label class="label">Minimum Median Score</label>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select v-model.number="filterScore">
+                  <option :value="0">All</option>
+                  <option v-for="score in scoreOptions" :key="score" :value="score">≥ {{ score }}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="field">
+            <label class="label">Sort by Score</label>
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select v-model="sortOrder">
+                  <option value="">None</option>
+                  <option value="desc">High → Low</option>
+                  <option value="asc">Low → High</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- School Table -->
+      <table class="table is-bordered is-striped is-hoverable is-fullwidth">
         <thead>
-          <tr style="background-color: #e8f0fe;">
-            <th style="padding: 0.5rem;">School</th>
-            <th style="padding: 0.5rem;">Locality</th>
-            <th style="padding: 0.5rem; text-align: center;">Median Score</th>
-            <th style="padding: 0.5rem; text-align: center;"></th>
+          <tr>
+            <th></th>
+            <th>School</th>
+            <th>Locality</th>
+            <th class="has-text-centered">Median Score</th>
           </tr>
         </thead>
         <tbody>
           <tr
-            v-for="school in comparedSchools"
+            v-for="school in sortedSchools"
             :key="school.School + school.Locality"
-            :style="{
-              borderBottom: '1px solid #ccc',
-              backgroundColor: isTopScore(school) ? '#e6ffe6' : 'white'
-            }"
           >
-            <td style="padding: 0.5rem;">{{ school.School }}</td>
-            <td style="padding: 0.5rem;">{{ school.Locality }}</td>
-            <td style="text-align: center;">{{ school['Median VCE study score'] }}</td>
-            <td style="text-align: center;">
-              <button @click="removeCompare(school)" style="padding: 0.3rem 0.6rem;">
-                Remove
-              </button>
+            <td class="has-text-centered">
+              <input
+                type="checkbox"
+                :checked="isCompared(school)"
+                @change="toggleCompare(school)"
+              />
             </td>
+            <td>{{ school.School }}</td>
+            <td>{{ school.Locality }}</td>
+            <td class="has-text-centered">{{ school['Median VCE study score'] }}</td>
           </tr>
         </tbody>
       </table>
-    </div>
 
-    <!-- Filters -->
-    <div style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
-      <div style="flex: 1 1 250px;">
-        <label>Search by School Name</label>
-        <input
-          v-model="filterName"
-          type="text"
-          placeholder="e.g. Melbourne High"
-          style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
-        />
-      </div>
-
-      <div style="flex: 1 1 250px;">
-        <label>Filter by Locality</label>
-        <select
-          v-model="filterLocality"
-          style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
-        >
-          <option value="">All</option>
-          <option v-for="loc in uniqueLocalities" :key="loc" :value="loc">{{ loc }}</option>
-        </select>
-      </div>
-
-      <div style="flex: 1 1 200px;">
-        <label>Minimum Median Score</label>
-        <select
-          v-model.number="filterScore"
-          style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
-        >
-          <option :value="0">All</option>
-          <option v-for="score in scoreOptions" :key="score" :value="score">≥ {{ score }}</option>
-        </select>
-      </div>
-
-      <div style="flex: 1 1 200px;">
-        <label>Sort by Score</label>
-        <select
-          v-model="sortOrder"
-          style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
-        >
-          <option value="">None</option>
-          <option value="desc">High → Low</option>
-          <option value="asc">Low → High</option>
-        </select>
+      <div v-if="sortedSchools.length === 0" class="notification is-warning">
+        No schools match your search.
       </div>
     </div>
-
-    <!-- Data Table -->
-    <table style="width: 100%; border-collapse: collapse;">
-      <thead>
-        <tr style="background-color: #f2f2f2;">
-          <th style="padding: 0.5rem;"></th>
-          <th style="text-align: left; padding: 0.5rem;">School</th>
-          <th style="text-align: left; padding: 0.5rem;">Locality</th>
-          <th style="text-align: center; padding: 0.5rem;">Median Score</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr
-          v-for="school in sortedSchools"
-          :key="school.School + school.Locality"
-          style="border-bottom: 1px solid #e0e0e0;"
-        >
-          <td style="padding: 0.5rem; text-align: center;">
-            <input
-              type="checkbox"
-              :checked="isCompared(school)"
-              @change="toggleCompare(school)"
-            />
-          </td>
-          <td style="padding: 0.5rem;">{{ school.School }}</td>
-          <td style="padding: 0.5rem;">{{ school.Locality }}</td>
-          <td style="text-align: center; padding: 0.5rem;">
-            {{ school['Median VCE study score'] }}
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p v-if="sortedSchools.length === 0" style="margin-top: 1rem; color: #a00;">
-      No schools match your search.
-    </p>
   </section>
 </template>
 
