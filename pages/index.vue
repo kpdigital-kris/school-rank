@@ -4,7 +4,7 @@
       VCE Median Study Scores (2022)
     </h1>
 
-    <!-- Filter Controls -->
+    <!-- Filters -->
     <div style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
       <!-- School Name Filter -->
       <div style="flex: 1 1 250px;">
@@ -42,9 +42,22 @@
           </option>
         </select>
       </div>
+
+      <!-- Sort Order -->
+      <div style="flex: 1 1 200px;">
+        <label style="font-weight: 500;">Sort by Score</label>
+        <select
+          v-model="sortOrder"
+          style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
+        >
+          <option value="">None</option>
+          <option value="desc">High → Low</option>
+          <option value="asc">Low → High</option>
+        </select>
+      </div>
     </div>
 
-    <!-- Data Table -->
+    <!-- Table -->
     <table style="width: 100%; border-collapse: collapse;">
       <thead>
         <tr style="background-color: #f2f2f2;">
@@ -55,7 +68,7 @@
       </thead>
       <tbody>
         <tr
-          v-for="school in filteredSchools"
+          v-for="school in sortedSchools"
           :key="school.School + school.Locality"
           style="border-bottom: 1px solid #e0e0e0;"
         >
@@ -68,7 +81,7 @@
       </tbody>
     </table>
 
-    <p v-if="filteredSchools.length === 0" style="margin-top: 1rem; color: #a00;">
+    <p v-if="sortedSchools.length === 0" style="margin-top: 1rem; color: #a00;">
       No schools match your search.
     </p>
   </section>
@@ -81,6 +94,7 @@ const schools = ref([])
 const filterName = ref('')
 const filterLocality = ref('')
 const filterScore = ref(0)
+const sortOrder = ref('') // '', 'asc', or 'desc'
 
 onMounted(async () => {
   try {
@@ -99,6 +113,15 @@ const filteredSchools = computed(() =>
     return matchesName && matchesLocality && matchesScore
   })
 )
+
+const sortedSchools = computed(() => {
+  if (!sortOrder.value) return filteredSchools.value
+  return [...filteredSchools.value].sort((a, b) => {
+    const aScore = a['Median VCE study score']
+    const bScore = b['Median VCE study score']
+    return sortOrder.value === 'asc' ? aScore - bScore : bScore - aScore
+  })
+})
 
 const uniqueLocalities = computed(() => {
   const set = new Set(schools.value.map((s) => s.Locality).sort())
