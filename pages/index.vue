@@ -6,9 +6,8 @@
 
     <!-- Filters -->
     <div style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
-      <!-- School Name Filter -->
       <div style="flex: 1 1 250px;">
-        <label style="font-weight: 500;">Search by School Name</label>
+        <label>Search by School Name</label>
         <input
           v-model="filterName"
           type="text"
@@ -17,9 +16,8 @@
         />
       </div>
 
-      <!-- Locality Filter -->
       <div style="flex: 1 1 250px;">
-        <label style="font-weight: 500;">Filter by Locality</label>
+        <label>Filter by Locality</label>
         <select
           v-model="filterLocality"
           style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
@@ -29,23 +27,19 @@
         </select>
       </div>
 
-      <!-- Minimum Score Filter -->
       <div style="flex: 1 1 200px;">
-        <label style="font-weight: 500;">Minimum Median Score</label>
+        <label>Minimum Median Score</label>
         <select
           v-model.number="filterScore"
           style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
         >
           <option :value="0">All</option>
-          <option v-for="score in scoreOptions" :key="score" :value="score">
-            ≥ {{ score }}
-          </option>
+          <option v-for="score in scoreOptions" :key="score" :value="score">≥ {{ score }}</option>
         </select>
       </div>
 
-      <!-- Sort Order -->
       <div style="flex: 1 1 200px;">
-        <label style="font-weight: 500;">Sort by Score</label>
+        <label>Sort by Score</label>
         <select
           v-model="sortOrder"
           style="padding: 0.5rem; width: 100%; border: 1px solid #ccc; border-radius: 4px;"
@@ -61,6 +55,7 @@
     <table style="width: 100%; border-collapse: collapse;">
       <thead>
         <tr style="background-color: #f2f2f2;">
+          <th style="padding: 0.5rem;"></th>
           <th style="text-align: left; padding: 0.5rem;">School</th>
           <th style="text-align: left; padding: 0.5rem;">Locality</th>
           <th style="text-align: center; padding: 0.5rem;">Median Score</th>
@@ -72,6 +67,13 @@
           :key="school.School + school.Locality"
           style="border-bottom: 1px solid #e0e0e0;"
         >
+          <td style="padding: 0.5rem; text-align: center;">
+            <input
+              type="checkbox"
+              :checked="isCompared(school)"
+              @change="toggleCompare(school)"
+            />
+          </td>
           <td style="padding: 0.5rem;">{{ school.School }}</td>
           <td style="padding: 0.5rem;">{{ school.Locality }}</td>
           <td style="text-align: center; padding: 0.5rem;">
@@ -84,6 +86,37 @@
     <p v-if="sortedSchools.length === 0" style="margin-top: 1rem; color: #a00;">
       No schools match your search.
     </p>
+
+    <!-- Comparison Panel -->
+    <div v-if="comparedSchools.length" style="margin-top: 2rem;">
+      <h2 style="font-size: 1.5rem; margin-bottom: 1rem;">Comparison View</h2>
+      <table style="width: 100%; border-collapse: collapse;">
+        <thead>
+          <tr style="background-color: #e8f0fe;">
+            <th style="padding: 0.5rem;">School</th>
+            <th style="padding: 0.5rem;">Locality</th>
+            <th style="padding: 0.5rem; text-align: center;">Median Score</th>
+            <th style="padding: 0.5rem; text-align: center;"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            v-for="school in comparedSchools"
+            :key="school.School + school.Locality"
+            style="border-bottom: 1px solid #ccc;"
+          >
+            <td style="padding: 0.5rem;">{{ school.School }}</td>
+            <td style="padding: 0.5rem;">{{ school.Locality }}</td>
+            <td style="text-align: center;">{{ school['Median VCE study score'] }}</td>
+            <td style="text-align: center;">
+              <button @click="removeCompare(school)" style="padding: 0.3rem 0.6rem;">
+                Remove
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </section>
 </template>
 
@@ -94,7 +127,8 @@ const schools = ref([])
 const filterName = ref('')
 const filterLocality = ref('')
 const filterScore = ref(0)
-const sortOrder = ref('') // '', 'asc', or 'desc'
+const sortOrder = ref('')
+const comparedSchools = ref([])
 
 onMounted(async () => {
   try {
@@ -132,4 +166,30 @@ const scoreOptions = computed(() => {
   const set = new Set(schools.value.map((s) => Math.floor(s['Median VCE study score'])))
   return Array.from(set).sort((a, b) => b - a)
 })
+
+// Comparison logic
+function toggleCompare(school) {
+  const exists = comparedSchools.value.find(
+    (s) => s.School === school.School && s.Locality === school.Locality
+  )
+  if (exists) {
+    comparedSchools.value = comparedSchools.value.filter(
+      (s) => s.School !== school.School || s.Locality !== school.Locality
+    )
+  } else {
+    comparedSchools.value.push(school)
+  }
+}
+
+function removeCompare(school) {
+  comparedSchools.value = comparedSchools.value.filter(
+    (s) => s.School !== school.School || s.Locality !== school.Locality
+  )
+}
+
+function isCompared(school) {
+  return comparedSchools.value.some(
+    (s) => s.School === school.School && s.Locality === school.Locality
+  )
+}
 </script>
