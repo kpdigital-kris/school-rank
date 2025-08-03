@@ -51,18 +51,18 @@
         </div>
 
         <div class="column is-one-quarter">
-          <div class="field">
-            <label class="label">Filter by Locality</label>
-            <div class="control">
-              <div class="select is-fullwidth">
-                <select v-model="filterLocality">
-                  <option value="">All</option>
-                  <option v-for="loc in uniqueLocalities" :key="loc" :value="loc">{{ loc }}</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="field">
+    <label class="label">Search by Suburb</label>
+    <div class="control">
+      <input
+        class="input"
+        type="text"
+        v-model="filterLocality"
+        placeholder="e.g. Toorak"
+      />
+    </div>
+  </div>
+</div>
 
         <div class="column is-one-quarter">
           <div class="field">
@@ -152,7 +152,7 @@ onMounted(async () => {
 const filteredSchools = computed(() =>
   schools.value.filter((s) => {
     const matchesName = s.School.toLowerCase().includes(filterName.value.toLowerCase())
-    const matchesLocality = filterLocality.value ? s.Locality === filterLocality.value : true
+    const matchesLocality = s.Locality.toLowerCase().includes(filterLocality.value.toLowerCase())
     const matchesScore = s['Median VCE study score'] >= filterScore.value
     return matchesName && matchesLocality && matchesScore
   })

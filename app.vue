@@ -1,12 +1,12 @@
 <script setup>
 useHead({
   htmlAttrs: { lang: "en-US" },
-  title: "Nuxt Starter",
+  title: "School Rank",
   meta: [
     {
       name: "description",
       content:
-        "Nuxt Starter is a minimal template created for quick landing pages, built with Nuxt and Tailwind CSS.",
+        "School rank is a website designed to help parents understand how schools are performing.",
     },
   ],
   bodyAttrs: {
