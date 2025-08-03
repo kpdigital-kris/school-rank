@@ -1,0 +1,2692 @@
+[
+  {
+    "School": "Academy of Mary Immaculate",
+    "Locality": "FITZROY",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Aitken College",
+    "Locality": "GREENVALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Al Iman College",
+    "Locality": "MELTON SOUTH",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Al Siraat College",
+    "Locality": "EPPING",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Al-Taqwa College",
+    "Locality": "TRUGANINA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Albert Park College",
+    "Locality": "ALBERT PARK",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Alexandra Secondary College",
+    "Locality": "ALEXANDRA",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Alia College",
+    "Locality": "HAWTHORN EAST",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Alice Miller School",
+    "Locality": "MACEDON",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Alkira Secondary College",
+    "Locality": "CRANBOURNE NORTH",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Alphington Grammar School",
+    "Locality": "ALPHINGTON",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Altona College",
+    "Locality": "ALTONA",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Antonine College",
+    "Locality": "PASCOE VALE SOUTH",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Apollo Bay P-12 College",
+    "Locality": "APOLLO BAY",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Aquinas College",
+    "Locality": "RINGWOOD",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Ararat Secondary College",
+    "Locality": "ARARAT",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Ashwood High School",
+    "Locality": "ASHWOOD",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Assumption College",
+    "Locality": "KILMORE",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Auburn High School",
+    "Locality": "HAWTHORN EAST",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Australian Internatl Academy",
+    "Locality": "COBURG",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Australian Internatl Academy",
+    "Locality": "CAROLINE SPRINGS",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Ave Maria College",
+    "Locality": "ABERFELDIE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Avila College",
+    "Locality": "MOUNT WAVERLEY",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Bacchus Marsh College",
+    "Locality": "BACCHUS MARSH",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Bacchus Marsh Grammar",
+    "Locality": "BACCHUS MARSH",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Baimbridge College",
+    "Locality": "HAMILTON",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Bairnsdale Secondary College",
+    "Locality": "BAIRNSDALE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Balcombe Grammar School",
+    "Locality": "MOUNT MARTHA",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Ballarat Christian College",
+    "Locality": "SEBASTOPOL",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Ballarat Clarendon College",
+    "Locality": "BALLARAT",
+    "Median VCE study score": 38.0
+  },
+  {
+    "School": "Ballarat Grammar",
+    "Locality": "WENDOUREE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Ballarat High School",
+    "Locality": "BALLARAT",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Balwyn High School",
+    "Locality": "BALWYN NORTH",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Bannockburn P-12 College",
+    "Locality": "BANNOCKBURN",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Bass Coast College",
+    "Locality": "WONTHAGGI",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Bayside Christian College",
+    "Locality": "LANGWARRIN SOUTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Bayside P-12 College",
+    "Locality": "NEWPORT",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Bayswater Secondary College",
+    "Locality": "BAYSWATER",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Bayview College",
+    "Locality": "PORTLAND",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Beaconhills College",
+    "Locality": "BERWICK",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Beaconhills College",
+    "Locality": "PAKENHAM",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Beaufort Secondary College",
+    "Locality": "BEAUFORT",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Beaumaris Secondary College",
+    "Locality": "BEAUMARIS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Beechworth Secondary College",
+    "Locality": "BEECHWORTH",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Belgrave Heights Christian Schl",
+    "Locality": "BELGRAVE HEIGHTS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Bellarine Secondary College",
+    "Locality": "DRYSDALE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Belmont High School",
+    "Locality": "BELMONT",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Benalla P-12 College",
+    "Locality": "BENALLA",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Bendigo Senior Sec College",
+    "Locality": "BENDIGO",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Bentleigh Secondary College",
+    "Locality": "BENTLEIGH EAST",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Berwick Grammar School",
+    "Locality": "OFFICER",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Berwick Secondary College",
+    "Locality": "BERWICK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Beth Rivkah Ladies College",
+    "Locality": "ST KILDA EAST",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Bialik College",
+    "Locality": "HAWTHORN",
+    "Median VCE study score": 37.0
+  },
+  {
+    "School": "Billanook College",
+    "Locality": "MOOROOLBARK",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Birchip P-12 School",
+    "Locality": "BIRCHIP",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Blackburn High School",
+    "Locality": "BLACKBURN",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Boort District P-12 School",
+    "Locality": "BOORT",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Boronia K-12 College",
+    "Locality": "BORONIA",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Box Hill High School",
+    "Locality": "BOX HILL",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Box Hill Institute - CAE campus",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Box Hill Senior Sec College",
+    "Locality": "MONT ALBERT NORTH",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Braemar College",
+    "Locality": "WOODEND",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Brauer College",
+    "Locality": "WARRNAMBOOL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Braybrook College",
+    "Locality": "BRAYBROOK",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Brentwood Secondary College",
+    "Locality": "GLEN WAVERLEY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Bright P-12 College",
+    "Locality": "BRIGHT",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Brighton Grammar School",
+    "Locality": "BRIGHTON",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Brighton Secondary College",
+    "Locality": "BRIGHTON EAST",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Broadford Secondary College",
+    "Locality": "BROADFORD",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Brunswick Secondary College",
+    "Locality": "BRUNSWICK",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Buckley Park College",
+    "Locality": "ESSENDON",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Bundoora Secondary College",
+    "Locality": "BUNDOORA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Camberwell Anglican Girls GS",
+    "Locality": "CANTERBURY",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Camberwell Grammar School",
+    "Locality": "CANTERBURY",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Camberwell High School",
+    "Locality": "CANTERBURY",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Camperdown College",
+    "Locality": "CAMPERDOWN",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Cann River P-12 College",
+    "Locality": "CANN RIVER",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Canterbury Girls Sec College",
+    "Locality": "CANTERBURY",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Carey Baptist Grammar School",
+    "Locality": "KEW",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Caroline Chisholm Catholic Coll",
+    "Locality": "BRAYBROOK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Carrum Downs Sec College",
+    "Locality": "CARRUM DOWNS",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Carwatha College P-12",
+    "Locality": "NOBLE PARK NORTH",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Casey Grammar School",
+    "Locality": "CRANBOURNE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Casterton Secondary College",
+    "Locality": "CASTERTON",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Castlemaine Secondary College",
+    "Locality": "CASTLEMAINE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Cathedral College",
+    "Locality": "WANGARATTA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Catherine McAuley College",
+    "Locality": "BENDIGO",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Catholic College Sale",
+    "Locality": "SALE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Catholic College Wodonga",
+    "Locality": "WODONGA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Catholic Ladies College",
+    "Locality": "ELTHAM",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Catholic Regional College",
+    "Locality": "MELTON WEST",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Catholic Regional College",
+    "Locality": "SYDENHAM",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Caulfield Grammar School",
+    "Locality": "WHEELERS HILL",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Caulfield Grammar School",
+    "Locality": "ST KILDA EAST",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Chairo Christian School",
+    "Locality": "NAR NAR GOON",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Chairo Christian School",
+    "Locality": "DROUIN",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Charles La Trobe P-12 College",
+    "Locality": "MACLEOD WEST",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Charlton College",
+    "Locality": "CHARLTON",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Cheltenham Secondary College",
+    "Locality": "CHELTENHAM",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Chisholm Institute",
+    "Locality": "FRANKSTON",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Chisholm Institute of TAFE",
+    "Locality": "DANDENONG",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Christian College Institute",
+    "Locality": "WAURN PONDS",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Clonard College",
+    "Locality": "HERNE HILL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Cobden Technical School",
+    "Locality": "COBDEN",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Cobram Anglican Grammar School",
+    "Locality": "COBRAM",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Cobram Secondary College",
+    "Locality": "COBRAM",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Coburg High School",
+    "Locality": "COBURG",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Cohuna Secondary College",
+    "Locality": "COHUNA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Colac Secondary College",
+    "Locality": "COLAC",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Collingwood College",
+    "Locality": "COLLINGWOOD",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Copperfield College",
+    "Locality": "DELAHEY",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Cornish College",
+    "Locality": "BANGHOLME",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Corryong College",
+    "Locality": "CORRYONG",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Covenant College",
+    "Locality": "BELL POST HILL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Craigieburn Secondary College",
+    "Locality": "CRAIGIEBURN",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Cranbourne East Sec College",
+    "Locality": "CRANBOURNE EAST",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Cranbourne Secondary College",
+    "Locality": "CRANBOURNE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Damascus College",
+    "Locality": "MOUNT CLEAR",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Dandenong High School",
+    "Locality": "DANDENONG",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Darul Ulum College of Victoria",
+    "Locality": "FAWKNER",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Daylesford Secondary College",
+    "Locality": "DAYLESFORD",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "De La Salle College",
+    "Locality": "MALVERN",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Derrinallum P12 College",
+    "Locality": "DERRINALLUM",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Diamond Valley College",
+    "Locality": "DIAMOND CREEK",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Dimboola Memorial Sec College",
+    "Locality": "DIMBOOLA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Donald High School",
+    "Locality": "DONALD",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Doncaster Secondary College",
+    "Locality": "DONCASTER",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Donvale Christian College",
+    "Locality": "DONVALE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Dromana Secondary College",
+    "Locality": "DROMANA",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Drouin Secondary College",
+    "Locality": "DROUIN",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "East Doncaster Sec College",
+    "Locality": "DONCASTER EAST",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "East Loddon P-12 College",
+    "Locality": "DINGEE",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "East Preston Islamic College",
+    "Locality": "PRESTON",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Echuca College",
+    "Locality": "ECHUCA",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Edenhope College",
+    "Locality": "EDENHOPE",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Edinburgh College",
+    "Locality": "LILYDALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Elisabeth Murdoch College",
+    "Locality": "LANGWARRIN",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Eltham College",
+    "Locality": "RESEARCH",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Eltham High School",
+    "Locality": "ELTHAM",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Elwood College",
+    "Locality": "ELWOOD",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Emerald Secondary College",
+    "Locality": "EMERALD",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Emmanuel College",
+    "Locality": "ALTONA NORTH",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Emmanuel College",
+    "Locality": "WARRNAMBOOL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Emmaus College",
+    "Locality": "VERMONT SOUTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Epping Secondary College",
+    "Locality": "EPPING",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Essendon Keilor College",
+    "Locality": "ESSENDON",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Euroa Secondary College",
+    "Locality": "EUROA",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "F.C.J. College",
+    "Locality": "BENALLA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Fairhills High School",
+    "Locality": "KNOXFIELD",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Fintona Girls School",
+    "Locality": "BALWYN",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Firbank Grammar School",
+    "Locality": "BRIGHTON",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Fitzroy High School",
+    "Locality": "FITZROY NORTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Flinders Christian Comm College",
+    "Locality": "TYABB",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Flinders Christian Comm College",
+    "Locality": "CARRUM DOWNS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Footscray High School",
+    "Locality": "FOOTSCRAY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Forest Hill College",
+    "Locality": "BURWOOD EAST",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Foster Secondary College",
+    "Locality": "FOSTER",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Fountain Gate Sec College",
+    "Locality": "FOUNTAIN GATE",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Frankston High School",
+    "Locality": "FRANKSTON",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Galen College",
+    "Locality": "WANGARATTA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Geelong Baptist College",
+    "Locality": "LOVELY BANKS",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Geelong Grammar School",
+    "Locality": "CORIO",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Geelong High School",
+    "Locality": "EAST GEELONG",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Geelong Lutheran College",
+    "Locality": "ARMSTRONG CREEK",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Genazzano F.C.J. College",
+    "Locality": "KEW",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Gilson College",
+    "Locality": "TAYLORS HILL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Gilson College",
+    "Locality": "MERNDA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Gippsland Grammar",
+    "Locality": "SALE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Girton Grammar School",
+    "Locality": "BENDIGO",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Gisborne Secondary College",
+    "Locality": "GISBORNE",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Gladstone Park Sec College",
+    "Locality": "GLADSTONE PARK",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Glen Eira College",
+    "Locality": "CAULFIELD EAST",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Glen Waverley Sec College",
+    "Locality": "GLEN WAVERLEY",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Gleneagles Secondary College",
+    "Locality": "ENDEAVOUR HILLS",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Glenroy Private",
+    "Locality": "GLENROY",
+    "Median VCE study score": 20.0
+  },
+  {
+    "School": "Glenroy Secondary College",
+    "Locality": "GLENROY",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Good News Lutheran College",
+    "Locality": "TARNEIT",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Good Shepherd College",
+    "Locality": "HAMILTON",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Gordon Institute of TAFE",
+    "Locality": "GEELONG",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Goroke P-12 College",
+    "Locality": "GOROKE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Goulburn Valley Grammar Schl",
+    "Locality": "SHEPPARTON",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Greater Shepparton Sec College",
+    "Locality": "SHEPPARTON",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Greensborough Sec College",
+    "Locality": "GREENSBOROUGH",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Grovedale College",
+    "Locality": "GROVEDALE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Haileybury College",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Haileybury Girls College",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Haileybury Rendall School",
+    "Locality": "BERRIMAH",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Hallam Senior Sec College",
+    "Locality": "HALLAM",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Hampton Park Sec College",
+    "Locality": "HAMPTON PARK",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Hawkesdale College",
+    "Locality": "HAWKESDALE",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Hazel Glen College",
+    "Locality": "DOREEN",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Healesville High School",
+    "Locality": "HEALESVILLE",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Heathdale Christian College",
+    "Locality": "WERRIBEE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Heatherton Christian College",
+    "Locality": "CLARINDA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Heathmont College",
+    "Locality": "HEATHMONT",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Heritage College",
+    "Locality": "OFFICER",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Highvale Secondary College",
+    "Locality": "GLEN WAVERLEY",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Highview Christian Comm College",
+    "Locality": "MARYBOROUGH",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Hillcrest Christian College",
+    "Locality": "CLYDE NORTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Holmes Grammar School",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Holy Trinity Lutheran College",
+    "Locality": "HORSHAM",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Homestead Senior Sec College",
+    "Locality": "POINT COOK",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Hopetoun P-12 College",
+    "Locality": "HOPETOUN",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Hoppers Crossing Sec College",
+    "Locality": "HOPPERS CROSSING",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Horsham College",
+    "Locality": "HORSHAM",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Hume Anglican Grammar",
+    "Locality": "MICKLEHAM",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Hume Central Sec College",
+    "Locality": "BROADMEADOWS",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Huntingtower School",
+    "Locality": "MOUNT WAVERLEY",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Ilim College",
+    "Locality": "BROADMEADOWS",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Ilim College Kiewa Campus",
+    "Locality": "DALLAS",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Islamic College of Melbourne",
+    "Locality": "TARNEIT",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Ivanhoe Girls' Grammar School",
+    "Locality": "IVANHOE",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Ivanhoe Grammar School",
+    "Locality": "IVANHOE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Ivanhoe Grammar School",
+    "Locality": "MERNDA",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "John Fawkner College",
+    "Locality": "FAWKNER",
+    "Median VCE study score": 18.0
+  },
+  {
+    "School": "John Monash Science School",
+    "Locality": "CLAYTON",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "John Paul College",
+    "Locality": "FRANKSTON",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Kambrya College",
+    "Locality": "BERWICK",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Kaniva P-12 College",
+    "Locality": "KANIVA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Kardinia Internatl College",
+    "Locality": "BELL POST HILL",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Keilor Downs College",
+    "Locality": "KEILOR DOWNS",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Kerang Christian College",
+    "Locality": "KERANG",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Kerang Technical High School",
+    "Locality": "KERANG",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Kew High School",
+    "Locality": "KEW EAST",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Keysborough SC - Acacia",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Keysborough SC - Banksia",
+    "Locality": "SPRINGVALE SOUTH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Kilbreda College",
+    "Locality": "MENTONE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Killester College",
+    "Locality": "SPRINGVALE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Kilvington Grammar School",
+    "Locality": "ORMOND",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Kings College",
+    "Locality": "WARRNAMBOOL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Kingswood College",
+    "Locality": "BOX HILL",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Kolbe Catholic College",
+    "Locality": "GREENVALE",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Koo Wee Rup Sec College",
+    "Locality": "KOO WEE RUP",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Koonung Secondary College",
+    "Locality": "MONT ALBERT NORTH",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Korowa Anglican Girls' School",
+    "Locality": "GLEN IRIS",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Korumburra Sec College",
+    "Locality": "KORUMBURRA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Kurnai College",
+    "Locality": "CHURCHILL",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Kurunjang Secondary College",
+    "Locality": "MELTON",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Kyabram P-12 College",
+    "Locality": "KYABRAM",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Kyneton Secondary College",
+    "Locality": "KYNETON",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Lakes Entrance Sec College",
+    "Locality": "LAKES ENTRANCE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Lakeside Lutheran College",
+    "Locality": "PAKENHAM",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Lakeview Senior College",
+    "Locality": "CAROLINE SPRINGS",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Lalor North Sec College",
+    "Locality": "EPPING",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Lalor Secondary College",
+    "Locality": "LALOR",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Lara Secondary College",
+    "Locality": "LARA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Lauriston Girls School",
+    "Locality": "ARMADALE",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Lavalla Catholic College",
+    "Locality": "TRARALGON",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Lavers Hill K-12 College",
+    "Locality": "LAVERS HILL",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Laverton P-12 College",
+    "Locality": "LAVERTON",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Leibler Yavneh College",
+    "Locality": "ELSTERNWICK",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Leongatha Secondary College",
+    "Locality": "LEONGATHA",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Lighthouse Christian College",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Lighthouse Christian College",
+    "Locality": "CRANBOURNE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Lilydale Heights College",
+    "Locality": "LILYDALE",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Lilydale High School",
+    "Locality": "LILYDALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Loreto College",
+    "Locality": "BALLARAT",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Loreto Mandeville Hall",
+    "Locality": "TOORAK",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Lowanna College",
+    "Locality": "NEWBOROUGH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Lowther Hall Anglican GS",
+    "Locality": "ESSENDON",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Loyola College",
+    "Locality": "WATSONIA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Luther College",
+    "Locality": "CROYDON HILLS",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Lyndale Secondary College",
+    "Locality": "DANDENONG NORTH",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Lyndhurst Secondary College",
+    "Locality": "CRANBOURNE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "MacKillop Catholic Reg College",
+    "Locality": "WERRIBEE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Macleod College",
+    "Locality": "MACLEOD",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mac.Robertson Girls' High Schl",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Maffra Secondary College",
+    "Locality": "MAFFRA",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mallacoota P-12 College",
+    "Locality": "MALLACOOTA",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Manangatang P-12 College",
+    "Locality": "MANANGATANG",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Manor Lakes P-12 College",
+    "Locality": "WYNDHAM VALE",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Mansfield Secondary College",
+    "Locality": "MANSFIELD",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Maranatha Christian School",
+    "Locality": "ENDEAVOUR HILLS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Marcellin College",
+    "Locality": "BULLEEN",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Marian College Sunshine",
+    "Locality": "SUNSHINE WEST",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Marian College Ararat",
+    "Locality": "ARARAT",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Marian College Myrtleford",
+    "Locality": "MYRTLEFORD",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Maribyrnong Sec College",
+    "Locality": "MARIBYRNONG",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Marist - Sion College",
+    "Locality": "WARRAGUL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Marist College Bendigo",
+    "Locality": "MAIDEN GULLY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mary MacKillop Catholic College",
+    "Locality": "LEONGATHA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Maryborough Education Centre",
+    "Locality": "MARYBOROUGH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Marymede Catholic College",
+    "Locality": "SOUTH MORANG",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Mater Christi College",
+    "Locality": "BELGRAVE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Matthew Flinders Girls' SC",
+    "Locality": "GEELONG",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Mazenod College",
+    "Locality": "MULGRAVE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "McClelland Secondary College",
+    "Locality": "FRANKSTON",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "McKinnon Secondary College",
+    "Locality": "MCKINNON",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Melba College",
+    "Locality": "CROYDON",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Melbourne Girls Grammar",
+    "Locality": "SOUTH YARRA",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Melbourne Girls' College",
+    "Locality": "RICHMOND",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Melbourne Grammar School",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Melbourne High School",
+    "Locality": "SOUTH YARRA",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Melbourne Rudolf Steiner Schl",
+    "Locality": "WARRANWOOD",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Melton Christian College",
+    "Locality": "BROOKFIELD",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Melton Secondary College",
+    "Locality": "MELTON",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mentone Girls' Grammar School",
+    "Locality": "MENTONE",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Mentone Girls' Sec College",
+    "Locality": "MENTONE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Mentone Grammar School",
+    "Locality": "MENTONE",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Mercy College",
+    "Locality": "COBURG",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mercy Regional College",
+    "Locality": "CAMPERDOWN",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Mernda Central P-12 College",
+    "Locality": "MERNDA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Methodist Ladies College",
+    "Locality": "KEW",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Mildura Senior College",
+    "Locality": "MILDURA",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mill Park Secondary College",
+    "Locality": "EPPING",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Minaret College",
+    "Locality": "OFFICER",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Minaret College",
+    "Locality": "SPRINGVALE",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mirboo North Sec College",
+    "Locality": "MIRBOO NORTH",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Monbulk College",
+    "Locality": "MONBULK",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Monivae College",
+    "Locality": "HAMILTON",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Monterey Secondary College",
+    "Locality": "FRANKSTON NORTH",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Montmorency Sec College",
+    "Locality": "MONTMORENCY",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Mooroolbark College",
+    "Locality": "MOOROOLBARK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mordialloc College",
+    "Locality": "MORDIALLOC",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Mornington Secondary College",
+    "Locality": "MORNINGTON",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Mortlake College",
+    "Locality": "MORTLAKE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Mount Alexander 7-12 Coll",
+    "Locality": "FLEMINGTON",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mount Beauty Sec College",
+    "Locality": "MOUNT BEAUTY",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Mount Clear College",
+    "Locality": "MOUNT CLEAR",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Mount Eliza Sec College",
+    "Locality": "MOUNT ELIZA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mount Erin College",
+    "Locality": "FRANKSTON SOUTH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Mount Evelyn Christian School",
+    "Locality": "MOUNT EVELYN",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mount Lilydale Mercy College",
+    "Locality": "LILYDALE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mount Ridley P-12 College",
+    "Locality": "CRAIGIEBURN",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Mount Rowan Secondary College",
+    "Locality": "WENDOUREE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Mount Scopus Memorial College",
+    "Locality": "BURWOOD",
+    "Median VCE study score": 37.0
+  },
+  {
+    "School": "Mount St Joseph Girls' College",
+    "Locality": "ALTONA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Mount Waverley Sec College",
+    "Locality": "MOUNT WAVERLEY",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Mountain District Christian SC",
+    "Locality": "MONBULK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mt Hira College",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Mullauna College",
+    "Locality": "MITCHAM",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Murrayville Community College",
+    "Locality": "MURRAYVILLE",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Murtoa P-12 College",
+    "Locality": "MURTOA",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Myrtleford P-12 College",
+    "Locality": "MYRTLEFORD",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Nagle College",
+    "Locality": "BAIRNSDALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Narre Warren Sth P-12 College",
+    "Locality": "NARRE WARREN SOUTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Nathalia Secondary College",
+    "Locality": "NATHALIA",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Nazareth College",
+    "Locality": "NOBLE PARK NORTH",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Neerim District Sec College",
+    "Locality": "NEERIM SOUTH",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Newcomb Secondary College",
+    "Locality": "NEWCOMB",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Newhaven College",
+    "Locality": "RHYLL",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Nhill College",
+    "Locality": "NHILL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Noble Park Secondary College",
+    "Locality": "NOBLE PARK",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "North Geelong Sec College",
+    "Locality": "GEELONG NORTH",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Northcote High School",
+    "Locality": "NORTHCOTE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Northern Bay P-12 College",
+    "Locality": "CORIO",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Northern College of Arts & Tech",
+    "Locality": "PRESTON EAST",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Northside Christian College",
+    "Locality": "BUNDOORA",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Norwood Secondary College",
+    "Locality": "RINGWOOD",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Nossal High School",
+    "Locality": "BERWICK",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Notre Dame College",
+    "Locality": "SHEPPARTON",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Numurkah Secondary College",
+    "Locality": "NUMURKAH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Nunawading Christian College",
+    "Locality": "NUNAWADING",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Oakleigh Grammar",
+    "Locality": "OAKLEIGH",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Oberon High School",
+    "Locality": "ARMSTRONG CREEK",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Officer Secondary College",
+    "Locality": "OFFICER",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "OneSchool Global Vic",
+    "Locality": "MELTON WEST",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Orbost Secondary College",
+    "Locality": "ORBOST",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Our Lady of Mercy College",
+    "Locality": "HEIDELBERG",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Our Lady of Sacred Heart Coll",
+    "Locality": "BENTLEIGH",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Our Lady of Sion College",
+    "Locality": "BOX HILL",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Ouyen P-12 College",
+    "Locality": "OUYEN",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Overnewton Anglican Comm Coll",
+    "Locality": "KEILOR",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Oxley Christian College",
+    "Locality": "CHIRNSIDE PARK",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Ozford College",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Padua College",
+    "Locality": "MORNINGTON",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Pakenham Secondary College",
+    "Locality": "PAKENHAM",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Parade College",
+    "Locality": "BUNDOORA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Parkdale Secondary College",
+    "Locality": "MORDIALLOC",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Pascoe Vale Girls Sec College",
+    "Locality": "PASCOE VALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Patterson River Sec College",
+    "Locality": "CARRUM",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Peninsula Grammar",
+    "Locality": "MOUNT ELIZA",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Penleigh & Essendon Grammar",
+    "Locality": "KEILOR EAST",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Penola Catholic College",
+    "Locality": "BROADMEADOWS",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Phoenix P-12 Comm Coll",
+    "Locality": "SEBASTOPOL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Plenty Valley Christian College",
+    "Locality": "DOREEN",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Point Cook Senior Sec College",
+    "Locality": "POINT COOK",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Portland Secondary College",
+    "Locality": "PORTLAND",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Presbyterian Ladies' College",
+    "Locality": "BURWOOD",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Princes Hill Sec College",
+    "Locality": "PRINCES HILL",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Rainbow P-12 College",
+    "Locality": "RAINBOW",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Red Cliffs Secondary College",
+    "Locality": "RED CLIFFS",
+    "Median VCE study score": 20.0
+  },
+  {
+    "School": "Red Rock Christian College",
+    "Locality": "SUNBURY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Reservoir High School",
+    "Locality": "RESERVOIR",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Richmond High School",
+    "Locality": "RICHMOND",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Ringwood Secondary College",
+    "Locality": "RINGWOOD",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Robinvale College",
+    "Locality": "ROBINVALE",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Rochester Secondary College",
+    "Locality": "ROCHESTER",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Rosebud Secondary College",
+    "Locality": "ROSEBUD",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Rosehill Secondary College",
+    "Locality": "NIDDRIE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Rowville Secondary College",
+    "Locality": "ROWVILLE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Roxburgh College",
+    "Locality": "ROXBURGH PARK",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Rushworth P-12 College",
+    "Locality": "RUSHWORTH",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Rutherglen High School",
+    "Locality": "RUTHERGLEN",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Ruyton Girls' School",
+    "Locality": "KEW",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Sacre Coeur",
+    "Locality": "GLEN IRIS",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Sacred Heart College",
+    "Locality": "YARRAWONGA",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Sacred Heart College Geelong",
+    "Locality": "NEWTOWN",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Sacred Heart College Kyneton",
+    "Locality": "KYNETON",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Sacred Heart Girls' College",
+    "Locality": "HUGHESDALE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Saint Ignatius College",
+    "Locality": "DRYSDALE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Sale College",
+    "Locality": "SALE",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Salesian College",
+    "Locality": "CHADSTONE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Salesian College Sunbury",
+    "Locality": "SUNBURY",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Sandringham College",
+    "Locality": "SANDRINGHAM",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Santa Maria College",
+    "Locality": "NORTHCOTE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Scoresby Secondary College",
+    "Locality": "SCORESBY",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Scotch College",
+    "Locality": "HAWTHORN",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Seymour College",
+    "Locality": "SEYMOUR",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Shelford Girls' Grammar",
+    "Locality": "CAULFIELD NORTH",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Shepparton Christian College",
+    "Locality": "SHEPPARTON",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Sherbrooke Community School",
+    "Locality": "SASSAFRAS",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Siena College",
+    "Locality": "CAMBERWELL",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Simonds Catholic College",
+    "Locality": "FITZROY NORTH",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Sirius College - Eastmeadows",
+    "Locality": "BROADMEADOWS",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Sirius College - Ibrahim Dellal",
+    "Locality": "SUNSHINE WEST",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Sirius College - Keysborough",
+    "Locality": "KEYSBOROUGH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Sirius College - Meadow Fair",
+    "Locality": "BROADMEADOWS",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Somerville Secondary College",
+    "Locality": "SOMERVILLE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "South Oakleigh Sec College",
+    "Locality": "OAKLEIGH SOUTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Southern Cross Grammar",
+    "Locality": "CAROLINE SPRINGS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Springside West Sec College",
+    "Locality": "FRASER RISE",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St Albans Secondary College",
+    "Locality": "ST ALBANS",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "St Aloysius College",
+    "Locality": "NORTH MELBOURNE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "St Andrews Christian College",
+    "Locality": "WANTIRNA SOUTH",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "St Arnaud Secondary College",
+    "Locality": "ST ARNAUD",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "St Augustine's College",
+    "Locality": "KYABRAM",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St Bede's College",
+    "Locality": "MENTONE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Bernard's College",
+    "Locality": "ESSENDON",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "St Brigid's College",
+    "Locality": "HORSHAM",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "St Catherine's School",
+    "Locality": "TOORAK",
+    "Median VCE study score": 37.0
+  },
+  {
+    "School": "St Columba's College",
+    "Locality": "ESSENDON",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "St Francis Xavier College",
+    "Locality": "BEACONSFIELD",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Helena Secondary College",
+    "Locality": "ELTHAM",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St John's Greek Orth College",
+    "Locality": "PRESTON",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St John's Regional College",
+    "Locality": "DANDENONG",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "St Joseph's College",
+    "Locality": "ECHUCA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Joseph's College",
+    "Locality": "FERNTREE GULLY",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St Joseph's College",
+    "Locality": "MILDURA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "St Joseph's College",
+    "Locality": "NEWTOWN",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St Kevin's College",
+    "Locality": "TOORAK",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "St Leonard's College",
+    "Locality": "BRIGHTON EAST",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "St Margaret's School",
+    "Locality": "BERWICK",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "St Mary MacKillop College",
+    "Locality": "SWAN HILL",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Mary of the Angels School",
+    "Locality": "NATHALIA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Mary's College Melbourne",
+    "Locality": "ST KILDA EAST",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "St Mary's Coptic Orth College",
+    "Locality": "COOLAROO",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "St Michael's Grammar School",
+    "Locality": "ST KILDA",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "St Monica's College",
+    "Locality": "EPPING",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Patrick's College",
+    "Locality": "BALLARAT",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "St Paul's Anglican Grammar Schl",
+    "Locality": "WARRAGUL",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "St Peter's College",
+    "Locality": "CRANBOURNE",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "St Thomas Aquinas College",
+    "Locality": "TYNONG",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Star of the Sea College",
+    "Locality": "BRIGHTON",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Staughton College",
+    "Locality": "MELTON SOUTH",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Stawell Secondary College",
+    "Locality": "STAWELL",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Strathcona Baptist Girls GS",
+    "Locality": "CANTERBURY",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "Strathmore Secondary College",
+    "Locality": "STRATHMORE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Sunbury College",
+    "Locality": "SUNBURY",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Sunbury Downs Sec College",
+    "Locality": "SUNBURY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Sunshine College",
+    "Locality": "SUNSHINE WEST",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Surf Coast Sec College",
+    "Locality": "TORQUAY",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Suzanne Cory High School",
+    "Locality": "WERRIBEE",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Swan Hill College",
+    "Locality": "SWAN HILL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Swifts Creek P-12 School",
+    "Locality": "SWIFTS CREEK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Swinburne Senior Sec College",
+    "Locality": "HAWTHORN",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Swinburne Uni of Tech - TAFE",
+    "Locality": "CROYDON",
+    "Median VCE study score": 20.0
+  },
+  {
+    "School": "Sydney Road Community School",
+    "Locality": "BRUNSWICK",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "TAFE Gippsland",
+    "Locality": "SALE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Tallangatta Secondary College",
+    "Locality": "TALLANGATTA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Tarneit Senior College",
+    "Locality": "TARNEIT",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Taylors Lakes Sec College",
+    "Locality": "TAYLORS LAKES",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Templestowe College",
+    "Locality": "TEMPLESTOWE LOWER",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Terang College Sec Campus",
+    "Locality": "TERANG",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "The Geelong College",
+    "Locality": "NEWTOWN",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "The Grange P-12 College",
+    "Locality": "HOPPERS CROSSING",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "The Hamilton & Alexandra Coll",
+    "Locality": "HAMILTON",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "The King David School",
+    "Locality": "ARMADALE",
+    "Median VCE study score": 36.0
+  },
+  {
+    "School": "The Knox School",
+    "Locality": "WANTIRNA SOUTH",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "The Lakes South Morang College",
+    "Locality": "SOUTH MORANG",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Thomas Carr College",
+    "Locality": "TARNEIT",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Thomastown Secondary College",
+    "Locality": "THOMASTOWN",
+    "Median VCE study score": 24.0
+  },
+  {
+    "School": "Thornbury High School",
+    "Locality": "THORNBURY",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Timboon P-12 School",
+    "Locality": "TIMBOON",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Tintern Grammar",
+    "Locality": "RINGWOOD EAST",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Toorak College",
+    "Locality": "MOUNT ELIZA",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Trafalgar High School",
+    "Locality": "TRAFALGAR",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Traralgon College",
+    "Locality": "TRARALGON",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Trinity College Colac",
+    "Locality": "COLAC",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Trinity Grammar School",
+    "Locality": "KEW",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Tyrrell College",
+    "Locality": "SEA LAKE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "University High School",
+    "Locality": "PARKVILLE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Upper Yarra Secondary College",
+    "Locality": "YARRA JUNCTION",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Upwey High School",
+    "Locality": "UPWEY",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Vermont Secondary College",
+    "Locality": "VERMONT",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Victoria University Polytechnic",
+    "Locality": "FOOTSCRAY",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Victoria University SC",
+    "Locality": "CAIRNLEA",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Victorian College of the Arts",
+    "Locality": "SOUTHBANK",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Victory Christian College",
+    "Locality": "STRATHDALE",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Victory Lutheran College",
+    "Locality": "WEST WODONGA",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Viewbank College",
+    "Locality": "VIEWBANK",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Virtual School Victoria",
+    "Locality": "THORNBURY",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Wallan Secondary College",
+    "Locality": "WALLAN",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Wangaratta High School",
+    "Locality": "WANGARATTA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Wantirna College",
+    "Locality": "WANTIRNA",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Warracknabeal Sec College",
+    "Locality": "WARRACKNABEAL",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Warragul Regional College",
+    "Locality": "WARRAGUL",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Warrandyte High School",
+    "Locality": "WARRANDYTE",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "Warrnambool College",
+    "Locality": "WARRNAMBOOL",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Waverley Christian College",
+    "Locality": "WANTIRNA SOUTH",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Waverley Christian College",
+    "Locality": "NARRE WARREN SOUTH",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Wedderburn College",
+    "Locality": "WEDDERBURN",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Wellington Secondary College",
+    "Locality": "MULGRAVE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Werribee Secondary College",
+    "Locality": "WERRIBEE",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Wesley College",
+    "Locality": "MELBOURNE",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Wesley College",
+    "Locality": "GLEN WAVERLEY",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Westall Secondary College",
+    "Locality": "CLAYTON SOUTH",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Westbourne Grammar School",
+    "Locality": "TRUGANINA",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Western Heights Sec College",
+    "Locality": "HAMLYN HEIGHTS",
+    "Median VCE study score": 21.0
+  },
+  {
+    "School": "Western Port Sec College",
+    "Locality": "HASTINGS",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Wheelers Hill Sec College",
+    "Locality": "WHEELERS HILL",
+    "Median VCE study score": 28.0
+  },
+  {
+    "School": "Whitefriars College",
+    "Locality": "DONVALE",
+    "Median VCE study score": 31.0
+  },
+  {
+    "School": "Whittlesea Secondary College",
+    "Locality": "WHITTLESEA",
+    "Median VCE study score": 23.0
+  },
+  {
+    "School": "William Ruthven Sec College",
+    "Locality": "RESERVOIR",
+    "Median VCE study score": 27.0
+  },
+  {
+    "School": "Williamstown High School",
+    "Locality": "WILLIAMSTOWN",
+    "Median VCE study score": 32.0
+  },
+  {
+    "School": "Wodonga Senior Sec College",
+    "Locality": "WODONGA",
+    "Median VCE study score": 22.0
+  },
+  {
+    "School": "Woodleigh School",
+    "Locality": "LANGWARRIN SOUTH",
+    "Median VCE study score": 30.0
+  },
+  {
+    "School": "Woodmans Hill Secondary College",
+    "Locality": "BALLARAT EAST",
+    "Median VCE study score": 29.0
+  },
+  {
+    "School": "Wycheproof P-12 College",
+    "Locality": "WYCHEPROOF",
+    "Median VCE study score": 34.0
+  },
+  {
+    "School": "Wyndham Central Sec Coll",
+    "Locality": "WERRIBEE",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Xavier College",
+    "Locality": "KEW",
+    "Median VCE study score": 33.0
+  },
+  {
+    "School": "Yarra Hills Secondary College",
+    "Locality": "MOOROOLBARK",
+    "Median VCE study score": 26.0
+  },
+  {
+    "School": "Yarra Valley Grammar School",
+    "Locality": "RINGWOOD",
+    "Median VCE study score": 35.0
+  },
+  {
+    "School": "Yarram Secondary College",
+    "Locality": "YARRAM",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Yarrawonga College P-12",
+    "Locality": "YARRAWONGA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Yea High School",
+    "Locality": "YEA",
+    "Median VCE study score": 25.0
+  },
+  {
+    "School": "Yeshivah College",
+    "Locality": "ST KILDA EAST",
+    "Median VCE study score": 36.0
+  }
+]
